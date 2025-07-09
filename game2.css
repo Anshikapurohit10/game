@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    
+}
+
+h1{
+    background-color: black;
+    color: aliceblue;
+    line-height: 7rem;
+    height: 7rem;
+
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+    
+}
+.choice{
+    height: 340px;
+    width: 340px;
+
+}
+img{
+    height: 330px;
+    width: 330px;
+    object-fit: cover;
+}
+.choices{
+    background-color: transparent;
+
+}
+
+
+
+
+.choices{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    margin-top: 6rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+    background-color: 0.3s;
+    
+}
+.score-board
+{
+    color: #fcf8f8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    gap: 7rem;
+    font-size: 3rem;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+margin-bottom: 6rem;
+
+    
+}
+ #user-score,#computer-score{
+    font-size: 2rem;
+ }
+#start #reset{
+    margin-bottom: 50px;
+}
+ #start{
+    font-size: 4rem;
+    display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -150px;
+    transform: translateX(-50%);
+    justify-content: center;
+    text-align: center;
+    margin-top: 40rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #f2eff3;
+    background-color: #0a090b;
+    border: none;
+    border-radius: 5px;
+ 
+}
+ #reset{
+    font-size: 4rem;
+display: flex;
+    position: absolute;
+    left: 50%;
+    bottom: -50px;
+    transform: translateX(-50%);
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: #f2f8f6;
+    background-color: #0a0c0c;
+    border: none;
+    border-radius: 5px;
+    opacity: 1;
+ 
+ }
+/* #reset:hover {
+    transform: scale(1.2);
+    background-color: #8e2c39;}*/
+    
+   /* #start:hover {
+    transform: scale(1.2);
+    background-color: #89222c;}*/
+
+ 
+body{
+    /*background-color: #d79420;*/
+background-image:url(360_F_183981489_KlGlQeXHEmJYHsqzijpiFKmJ95sHnjfy.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width: 100%;
+height: 900px;
+}
+
